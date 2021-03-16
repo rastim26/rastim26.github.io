@@ -200,6 +200,7 @@ h2.title {
    top: -54px;
    left: -240px;
    z-index: -1;
+   filter: blur(10px);
 }
 .finish {
    min-height: 447px;
