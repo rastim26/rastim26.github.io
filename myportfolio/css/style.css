@@ -1,0 +1,433 @@
+*, *:after, *:before {
+   box-sizing: border-box; 
+}
+img {
+   max-width: 100%;
+}
+body{
+   background-color: #20202D;
+   margin: 0;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+}
+.container {
+   width: 90%;
+   max-width: 945px;
+   margin: auto;
+}
+
+.section {
+   padding-top: 64px;
+   padding-bottom: 92px;
+}
+.section-title {
+   margin: 0;
+   margin-bottom: 84px;   
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+
+}
+.hero {
+   padding-top: 50px;
+   padding-bottom: 150px;
+   background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+.hero-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 105px;
+}
+.social-link {
+   margin-left: 20px;
+}
+.social-link img:hover {
+   width: 22px;
+   transition: 0.5s all;
+   border: 2px solid #23dff8;
+   border-radius: 100%;
+}   
+.social-link:first-child {
+   margin-left: 0;
+}
+.hero-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hero-subtitle {
+   display: block;
+   font-size: 24px;
+   line-height: 28px;
+   color: #FFBB01;
+   margin-bottom: 14px;
+}
+.hero-title {
+   font-weight: bold;
+   font-size: 50px;
+   line-height: 59px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+.hero-description {
+   font-size: 16px;
+   line-height: 28px;
+   max-width: 420px;
+   margin-bottom: 38px;
+}
+.button {
+   display: inline-block;
+   background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+   box-shadow: 0px 4px 0px #B68500;
+   border: none;
+   border-radius: 5px 5px 10px 10px;
+   padding: 24px 42px;
+   font-size: 12px;
+   line-height: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+
+   color: #000000;
+   text-decoration: none;
+}
+.button:active {
+   color: #000000;
+   text-decoration: none;
+}      
+.hero-avatar {
+   width: 389px;
+   height: 389px;
+   border-radius: 50%;
+   background-image: url('../img/avatar.jpg');
+   background-repeat: no-repeat;
+   background-position: left -80px top -60px;
+   border: 13px solid #fff;
+}
+
+/* features */
+.features {
+   background-color: #000000;
+}
+.features-block {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.feature-item {
+   flex-basis: 30%;
+   margin-bottom: 63px;
+}
+.features-image {
+   display: block;
+   margin-bottom: 22px;
+}
+.features-title {
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+   margin-bottom: 16px; 
+}
+.features-text{
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 28px;
+   margin: 0;
+}
+/* projects */
+.projects {
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.project-text {
+   flex-basis: 60%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.project-title {
+   flex-basis: 100%;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+   margin-bottom: 41px;
+}
+.project-time, .project-cost {
+   flex-basis: 50%;
+   margin-bottom: 44px;
+}
+.project-time, .project-cost, .project-feedback {
+   display: flex;
+   align-items: flex-start;
+}
+.project-icon {
+   margin-right: 16px;
+}
+.project-subtitle {
+   margin: 0;
+   margin-bottom: 7px;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+}
+.project-paragraf {
+   margin: 0;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+}
+.projects-pagination {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 44px;
+}
+.projects-bullet {
+   width: 10px;
+   height: 10px;
+   border: 2px solid #FFBB01;
+   border-radius: 50%;
+   display: inline-block;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+.projects-bullet-active {
+   background-color: #FFBB01;
+}
+
+/* contacts */
+.contacts-block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.contacts-text {
+   flex-basis: 50%;
+}
+.contacts-form {
+   background: #FFFFFF;
+   box-shadow: -5px 5px 0px #FFC41D;
+   border-radius: 5px;
+   max-width: 380px;
+   padding: 40px 48px 49px 48px;
+}
+.form-title {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   color: #000000;
+   margin: 0;
+   margin-bottom: 29px;
+}
+.input {
+   background: #F8F8F8;
+   border:none;
+   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+   border-radius: 5px;
+   padding: 18px 20px;
+   padding-left: 49px;
+   width: 100%;
+   font-size: 14px;
+   line-height: 28px;
+}
+.input-name {
+   margin-bottom: 17px;
+   background-image: url('../img/user-icon.svg'); 
+   background-repeat: no-repeat;
+   background-position: center left 20px;
+}
+.input-phone {
+   margin-bottom: 26px;
+   background-image: url('../img/phone-icon.svg'); 
+   background-repeat: no-repeat;
+   background-position: center left 20px;
+}
+.form-button {
+   width: 100%;
+}
+.contacts-data {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 42px;
+}
+.contacts-phone, .contacts-mail {
+   flex-basis: 50%;
+   margin-bottom: 53px; 
+}
+.contacts-social {
+   flex-basis: 100%;
+}
+.contacts-title {
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+   margin-bottom: 15px;
+}
+.contacts-link {
+   text-decoration: none;
+   color:inherit;
+   margin-right: 37px;
+}
+.contacts-link:hover {
+   text-decoration: underline;
+}
+.contacts-policy {
+   display: inline-block;
+   font-size: 15px;
+   line-height: 18px;
+   text-decoration-line: underline;
+   color: #A5A5A5;
+   margin-top: 72px;
+}
+
+/* responsive */
+@media (max-width:1100px) {
+   .hero-avatar {
+      width: 300px;
+      height: 300px;
+      background-position:-120px -90px;
+      border-width: 10px;
+   }
+}
+@media (max-width:836px) {
+   .hero-content {
+      flex-direction: column;
+   }
+   .hero-avatar {
+      order: 0;
+      width: 300px;
+      height: 300px;
+      background-position:-120px -90px;
+      border-width: 10px;
+      margin-bottom: 17px;
+   }
+   .hero-text {
+      order: 1;
+      text-align: center;
+   }
+   .feature-item {
+      flex-basis: 48%;
+   } 
+   .projects-slide {
+      flex-direction: column;
+   }
+   .project-image {
+      margin-bottom: 46px;
+   }
+   .contacts-block {
+      align-items: flex-start;
+      flex-direction: column;
+   }
+   .contacts-form {
+      margin-bottom: 46px;
+   }
+}
+@media (max-width: 564px) {
+   .hero {
+      padding-top: 43px;
+      padding-bottom: 75px;
+   }
+   .hero-header {
+      margin-bottom: 39px;
+   }
+   .hero-subtitle {
+      font-size: 18px;
+      line-height: 27px;
+   }
+   .hero-avatar {
+      width: 200px;
+      height: 200px;
+      border-width: 6px;
+      background-size: 120%;
+      background-position: center top -10px;
+   }
+   .social-link {
+      margin-left: 10px;
+   }
+   .hero-title {
+      font-size: 28px;
+      line-height: 22px;
+   }
+   .hero-description {
+      font-size: 14px;
+      line-height: 140%;
+   }
+   .section {
+      padding: 60px 0;
+   }
+   .section-title {
+      margin-bottom: 50px;
+      font-size: 24px;
+      line-height: 22px;
+   }
+   .feature-item {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+   }
+   .features-title {
+      font-size: 18px;
+      line-height: 28px;
+   }
+   .features-text {
+      font-size: 14px;
+      line-height: 28px;
+   }
+   .project-title {
+      font-size: 18px;
+      line-height: 150%;
+   }
+   .project-time, .project-cost {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+   }
+   .project-paragraf {
+      font-size: 14px;
+      line-height: 150%;
+   }
+   .projects-pagination {
+      margin-top: 30px;
+   }
+   .contacts-form {
+      max-width: 380px;
+      padding: 40px 19px;
+      margin-bottom: 64px;
+   }
+   .form-title {
+      font-size: 15px;
+      line-height: 140%;
+   }
+   .button {
+      font-size: 12px;
+      line-height: 10px;
+   }
+
+   .contacts-phone, .contacts-mail {
+      flex-basis: 100%;
+      margin-bottom: 35px;
+   }
+   .contacts-title {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 21px;
+   }
+   .contacts-link {
+      font-size: 14px;
+      line-height: 16px;
+      display: block;
+      margin-bottom: 13px;
+   }
+   .contacts-data {
+      margin-bottom: 28px;
+   }
+   .contacts-policy {
+      margin-top: 27px;
+   }
+
+}
