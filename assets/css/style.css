@@ -725,7 +725,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  /* min-height: 320px; */
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -733,6 +733,11 @@ section {
   border-radius: 50%;
   margin: 0 auto;
 }
+
+.testimonials .testimonial-item .testimonial-myimg {
+  max-width: 220px;
+}
+
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
