@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <form class="form" id="app">
+      <div class="wrap_radio">
+         <input type="radio" name="license" id="plan1">
+         <label 
+            class="uppercase" 
+            for="plan1"
+            @click="plan = 13"
+         >license plan # 1 </label>
+         <div class="radio_desc">$13 per license</div>
+      </div>
+      <div class="wrap_radio">
+         <input type="radio" name="license" id="plan2">
+         <label 
+            class="uppercase" 
+            for="plan2"
+            @click="plan = 22"
+         >license plan # 2 </label>
+         <div class="radio_desc">$22 per license</div>
+      </div>
+      <div class="wrap_radio">
+         <input type="radio" name="license" id="plan3">
+         <label 
+            class="uppercase" 
+            for="plan3"
+            @click="plan = 34"
+         >license plan # 3 </label>
+         <div class="radio_desc">$34 per license</div>
+      </div>
+      
+      
+      <hr>
+      <div class="number_div">
+         <label class="number_label">Number of licenses:&nbsp;</label>
+         <input 
+            list="number_list"  
+            name="license" 
+            class="number_input"
+            v-model="pieces"
+            
+         >
+         <datalist id="number_list">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+            <option value="50">
+         </datalist>
+      </div>
+      <hr>
+      <div class="buy_div">
+         <div class="buy_label uppercase">total: <span class="buy_amount uppercase">${{plan*pieces}}<span class="buy_currency">US</span></span></div>
+         <input class="buy_input uppercase" type="submit" value="buy now" id="buy_btn">
+         <p class="buy_desc">Selected plan: #3</p> 
+      </div>
+      
+
+   </form>
+
+
+   <script src="https://unpkg.com/vue@next"></script>
+   <script src="app.js"></script>
+</body>
+</html>  

@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('Roboto'), local('Roboto-Regular'),
+		 url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Roboto-Regular.woff') format('woff'),
+		 url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.eot');
+	src: local('Roboto Medium'), local('Roboto-Medium'),
+		 url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Roboto-Medium.woff') format('woff'),
+		 url('../fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueRegular.eot');
+	src: local('Bebas Neue Regular'), local('BebasNeueRegular'),
+		url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueRegular.woff') format('woff'),
+		url('../fonts/BebasNeueRegular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueBold.eot');
+	src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+		url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueBold.woff') format('woff'),
+		url('../fonts/BebasNeueBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
