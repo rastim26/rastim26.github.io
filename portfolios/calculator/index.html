@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Calculator</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="content">
+        <div class="sm-num"></div>
+        <div id="display" class="bg-num"></div>
+        <button onclick="cancel()" class="key c">C</button>
+        <button onclick="remove()" class="key del">
+          <svg
+            width="33"
+            height="32"
+            viewBox="0 0 33 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10.9158 7.00001H11.33H27.33H28.33V8.00001V24V25H27.33H11.33H10.9158L10.6229 24.7071L2.62288 16.7071L1.91577 16L2.62288 15.2929L10.6229 7.2929L10.9158 7.00001ZM11.7442 9.00001L4.7442 16L11.7442 23H26.33V9.00001H11.7442ZM15.33 11.5858L16.0371 12.2929L18.33 14.5858L20.6229 12.2929L21.33 11.5858L22.7442 13L22.0371 13.7071L19.7442 16L22.0371 18.2929L22.7442 19L21.33 20.4142L20.6229 19.7071L18.33 17.4142L16.0371 19.7071L15.33 20.4142L13.9158 19L14.6229 18.2929L16.9158 16L14.6229 13.7071L13.9158 13L15.33 11.5858Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <button id="div" onclick="operate(this.id)" class="key op divide">
+          ÷
+        </button>
+        <button id="7" onclick="entNum(this.id)" class="key">7</button>
+        <button id="8" onclick="entNum(this.id)" class="key">8</button>
+        <button id="9" onclick="entNum(this.id)" class="key">9</button>
+        <button id="multi" onclick="operate(this.id)" class="key op product">
+          ×
+        </button>
+        <button id="4" onclick="entNum(this.id)" class="key">4</button>
+        <button id="5" onclick="entNum(this.id)" class="key">5</button>
+        <button id="6" onclick="entNum(this.id)" class="key">6</button>
+        <button id="sub" onclick="operate(this.id)" class="key op sub">
+          –
+        </button>
+        <button id="1" onclick="entNum(this.id)" class="key">1</button>
+        <button id="2" onclick="entNum(this.id)" class="key">2</button>
+        <button id="3" onclick="entNum(this.id)" class="key">3</button>
+        <button id="sum" onclick="operate(this.id)" class="key op plus">
+          +
+        </button>
+        <button id="0" onclick="entNum(this.id)" class="key zero">0</button>
+        <button id="" onclick="equal()" class="key op equal">=</button>
+      </div>
+    </div>
+    <!-- /.display -->
+    <script src="main.js"></script>
+  </body>
+</html>
