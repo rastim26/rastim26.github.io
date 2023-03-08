@@ -763,6 +763,10 @@ section {
   object-fit: cover;
 }
 
+.testimonials .testimonial-item .testimonial-myimg:hover {
+  opacity: 0.7;
+}
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
