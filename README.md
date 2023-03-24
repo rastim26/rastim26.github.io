@@ -10,35 +10,40 @@ The site contains Rastim's contact details, tells about his professional experie
 
 ### CSS(BEM Nested) - JavaScript:
 
-- [14. Mesto](https://rastim26.github.io/mesto/ "Mesto") -
-- [13. Travel in Russia](https://rastim26.github.io/russian-travel/ "Travel in Russia") -
-- [12. How to learn](https://rastim26.github.io/how-to-learn/ "How to learn") -
+- [14. Mesto (2023)](https://rastim26.github.io/mesto/ "Mesto (2023)") -
+- [13. Travel in Russia (2023)](https://rastim26.github.io/russian-travel/ "Travel in Russia (2023)") -
+- [12. How To Learn (2023)](https://rastim26.github.io/how-to-learn/ "How To Learn (2023)") -
 
 ###
 
-- [11. Coffee Shop](https://rastim26.github.io/portfolios/coffeehtml/ "Coffee Shop")
+- [11. Сoffee Factory (2021)](https://rastim26.github.io/portfolios/coffeehtml/ "Сoffee Factory (2021)")
 
 ### VueJS:
 
-- [10. To Do list](https://rastim26.github.io/portfolios/todolist/ "To Do list")
-- [9. Vue Task](https://rastim26.github.io/portfolios/kursovaya_1/ "Vue Task]")
+- [10. To do list (2021)](https://rastim26.github.io/portfolios/todolist/ "To do list (2021)")
+- [9. Vue task (2020)](https://rastim26.github.io/portfolios/kursovaya_1/ "Vue task (2020)")
 
 ### JS:
 
-- [8. Calculator](https://rastim26.github.io/portfolios/calculator/ "Calculator")
+- [8. Calculator (2021)](https://rastim26.github.io/portfolios/calculator/ "Calculator (2021)")
+
+### WordPress:
+
+- [8. Coffee Shop (2020)](https://rastim.pro/coffee-shop "Coffee Shop (2020)")
+- [8. Childhood (2020)](https://rastim.pro/childhood "Childhood (2020)")
 
 ### jQuery:
 
-- [7. jQpopups](https://rastim26.github.io/portfolios/jQpopups/ "jQpopups")
-- [6. jQbeats](https://rastim26.github.io/portfolios/jQbeats/ "jQbeats")
+- [7. jQpopups (2020)](https://rastim26.github.io/portfolios/jQpopups/ "jQpopups (2020)")
+- [6. jQbeats (2020)](https://rastim26.github.io/portfolios/jQbeats/ "jQbeats (2020)")
 
 ### Bootstrap:
 
-- [5. kmonsterbs](https://rastim26.github.io/portfolios/kmonsterbs/ "kmonsterbs")
-- [4. IPbootstrap](https://rastim26.github.io/portfolios/IPbootstrap/ "IPbootstrap")
+- [5. Kino Monster Bootstrap (2020)](https://rastim26.github.io/portfolios/kmonsterbs/ "Kino Monster Bootstrap (2020)")
+- [4. UBER PARTNERS (2020)](https://rastim26.github.io/portfolios/IPbootstrap/ "UBER PARTNERS (2020)")
 
 ### CSS:
 
-- [3. kmonster](https://rastim26.github.io/portfolios/kmonster/ "kmonster")
-- [2. IPcss](https://rastim26.github.io/portfolios/IPcss/ "IPcss")
-- [1. Personal Profile](https://rastim26.github.io/portfolios/myportfolio/ "Profile")
+- [3. Kino Monster (2020)](https://rastim26.github.io/portfolios/kmonster/ "Kino Monster (2020)")
+- [2. Wordpress Intensive (2020)](https://rastim26.github.io/portfolios/IPcss/ "Wordpress Intensive (2020)") - SASS
+- [1. Personal Site Portfolio (2019)](https://rastim26.github.io/portfolios/myportfolio/ "Personal Site Portfolio (2019)")
